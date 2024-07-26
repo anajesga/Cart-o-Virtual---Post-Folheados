@@ -1,0 +1,50 @@
+body{
+background-color: bisque;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: black;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.card{
+background-color: blanchedalmond;
+border-radius: 20px;
+border: 4px solid  burlywood ;
+box-shadow: 0 0 15px burlywood;
+text-align: center;
+padding: 20px;
+width: 150%;
+max-width: 500px;
+
+}
+
+.Post img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.contact-buttons a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: burlywood;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 23px;
+    transition: background-color 0.3s ease;
+
+}
+.contact-buttons a:hover{
+    background-color: antiquewhite;
+}
+
+.social-icons img{
+    width: 40px;
+    margin: 10px;
+
+}
